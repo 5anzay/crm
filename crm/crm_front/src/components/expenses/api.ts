@@ -2,7 +2,7 @@
 import type { Expense } from "./types";
 import { getCsrfToken } from "../customers/csrf"; // reuse your csrf function
 
-const API_URL = "http://localhost:8000/api/expenses/";
+const API_URL = "/api/expenses/";
 
 // Handle fetch response
 const handleResponse = async (res: Response) => {

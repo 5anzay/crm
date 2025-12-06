@@ -1,7 +1,7 @@
 import type { Product } from "./types";
 import { getCsrfToken } from "./csrf";
 
-const API_URL = "http://localhost:8000/api/products/";
+const API_URL = "/api/products/";
 
 const handleResponse = async (res: Response) => {
   if (!res.ok) {

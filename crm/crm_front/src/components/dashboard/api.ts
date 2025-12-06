@@ -1,7 +1,7 @@
 // src/components/dashboard/api.ts
 import { getCsrfToken } from "../customers/csrf";
 
-const API_URL = "http://localhost:8000/api/dashboard/";
+const API_URL = "/api/dashboard/";
 
 const handleResponse = async (res: Response) => {
   if (!res.ok) {
