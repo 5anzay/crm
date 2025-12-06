@@ -33,7 +33,7 @@ onNavigate={navigate}
 onLogout={() => {
   localStorage.removeItem("access_token");
   localStorage.removeItem("refresh_token");
-  window.location.reload(); // refresh app to show login page
+  navigate("/"); // refresh app to show login page
 }}
 />
 
